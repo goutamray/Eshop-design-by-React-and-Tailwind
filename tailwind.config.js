@@ -20,7 +20,8 @@ export default {
         padding : {
           DEFAULT : "1rem",
           sm : "3rem", 
-          lg : "4rem",
+          md: "2rem",
+       
         }
       }
     },
