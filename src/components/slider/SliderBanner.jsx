@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; 
 import Button from "../button/Button";
 
-const SlideBanner = () => {
+const SlideBanner = ({  handleOrderPopup }) => {
   var settings = {
     dots: false,
     arrow : false,
@@ -21,7 +21,7 @@ const SlideBanner = () => {
 
   return (
     <>
-      <div className="container mt-2">
+      <div className="container mt-24">
         <div className="overflow-hidden rounded-3xl min-h-[550px] sm:min-h-[650px] hero-bg-color flex items-center justify-center ">
           <div className="container pb-8 sm:pb-0 ">
           {/* hero section  */}
@@ -36,7 +36,7 @@ const SlideBanner = () => {
                             <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold "> {item.title}</h2>
                             <h2 className="text-5xl text-white uppercase dark:text-white/5 sm:text-[50px] md:text-[100px] lg:text-[150px] font-bold "> {item.title2}</h2>
                             <div>
-                                <Button text="Shop By Category" bgColor="bg-primary" textColor="text-white" /> 
+                                <Button onClick={handleOrderPopup} text="Shop By Category" bgColor="bg-primary" textColor="text-white" /> 
                               </div>
                           </div>
                        {/* image section */}

@@ -11,11 +11,14 @@ import product5 from "../src/assets/p5.jpg"
 import product6 from "../src/assets/p6.jpg"
 import product7 from "../src/assets/p7.jpg"
 
-
+// blog images 
+import blog1 from "../src/assets/blog-1.jpg"
+import blog2 from "../src/assets/blog-2.jpg"
+import blog3 from "../src/assets/blog-3.jpg"
 
 
 // primary menu 
-export const  MenuList = [
+export const MenuList = [
   {
     name : "Home",
     url : "/#",
@@ -111,46 +114,71 @@ export const productData = [
   {
     id : 5,
     image : product5,
-    title : "Printed",
+    title : "Rapoo H120",
     price : "420",
     aosDelay : "600"
   },
   {
     id : 6,
     image : product6,
-    title : "Printed",
+    title : "Jabra Evolve2",
     price : "420",
     aosDelay : "600"
   },
   {
     id : 7,
     image : product7,
-    title : "Printed",
+    title : "Havit i62 Bluetooth",
     price : "420",
     aosDelay : "600"
   },
   {
     id : 8,
     image : product4,
-    title : "Printed",
+    title : "AULA S505 Wired",
     price : "420",
     aosDelay : "600"
   },
   {
     id : 9,
     image : product3,
-    title : "Printed",
+    title : "GIGABYTE AORUS H1",
     price : "420",
     aosDelay : "600"
   },
   {
     id : 10,
     image : product1,
-    title : "Printed",
+    title : "A4Tech Bloody M590i",
     price : "420",
     aosDelay : "600"
   },
   
 ]
 
+
+// blogData 
+export const BlogData = [
+  {
+    id : 1,
+    image : blog1,
+    date : "Jan 20, 2024 by Dilshad",
+    title : "How to choose perfect smartwatch",
+    desc : "minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro?",
+  },
+  {
+    id : 2,
+    image : blog2,
+    date : "Jan 20, 2024 by Satya",
+    title : "How to choose perfect gadget",
+    desc : "minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro?",
+  },
+  {
+    id : 3,
+    image : blog3,
+    date : "Jan 20, 2024 by Sabir",
+    title : "How to choose perfect VR headset",
+    desc : "minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro?",
+  },
+]
 

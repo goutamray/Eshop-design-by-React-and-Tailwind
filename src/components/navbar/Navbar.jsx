@@ -6,11 +6,11 @@ import DarkMode from "./DarkMode";
 
 
 
-const Navbar = () => {
+const Navbar = ({ handleOrderPopup }) => {
   return (
-    <>
-      <div className="bg-white dark:bg-gray-900 dark:text-white shadow duration-300 z-40 relative ">
-        <div className="py-4">
+    <nav className="bg-white fixed top-0 w-full z-50">
+      <div className="bg-white dark:bg-gray-900 dark:text-white shadow duration-300 z-40 relative  ">
+        <div className="py-4 s">
           <div className="container flex justify-between items-center">
             {/* logo & menu section  */}
               <div className="flex items-center gap-5">
@@ -55,7 +55,7 @@ const Navbar = () => {
                     <IoIosSearch className="text-xl text-gray-600 dark:text-gray-400 top-1/2 right-3 absolute -translate-y-1/2 group-hover:text-primary duration-300"/> 
                  </div>
               {/* cart button  */}
-              <button className="relative p-3 ">
+              <button className="relative p-3 " onClick={handleOrderPopup}>
                   <FaCartShopping className="text-xl text-gray-600 dark:text-gray-400 "/>
                   <div className="h-4 w-4 rounded-full bg-red-500 text-white absolute top-0 right-0 flex items-center justify-center text-xs">
                     4 
@@ -70,7 +70,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </>
+    </nav>
   )
 }
 

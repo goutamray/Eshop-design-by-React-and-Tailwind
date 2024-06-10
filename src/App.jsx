@@ -12,6 +12,11 @@ import Banner2 from './components/banner/Banner2'
 
 
 import smartwatch2 from "../src/assets/smartwatch2.png"
+import Blog from './components/blog/Blog'
+import Partner from './components/partners/Partner'
+import Footer from './components/footer/Footer'
+import { useState } from 'react'
+import Popup from './components/popup/Popup'
 
 // get small banner  data
 const SmallBanner = {
@@ -39,18 +44,27 @@ const SmallBanner2 = {
  
 
 function App() {
+     const [orderPopup, setOrderPopup ] = useState(false); 
+
+     // handle show popup
+     const handleOrderPopup = (() => {
+      setOrderPopup(!orderPopup)
+     })
 
   return (
     <div className='bg-white dark:bg-slate-900 dark:text-white duration-200 overflow-hidden '>
-      <Navbar /> 
-      <SlideBanner /> 
+      <Navbar handleOrderPopup={handleOrderPopup}/> 
+      <SlideBanner  handleOrderPopup={handleOrderPopup} /> 
       <Category /> 
       <Category2 /> 
       <Service /> 
       <Banner data={SmallBanner} /> 
       <Products /> 
       <Banner2 data2={SmallBanner2} /> 
-
+      <Blog /> 
+      <Partner /> 
+      <Footer />
+      <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} /> 
     </div>
   )
 }
