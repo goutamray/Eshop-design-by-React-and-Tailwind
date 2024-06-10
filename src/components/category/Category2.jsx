@@ -28,7 +28,7 @@ const Category2 = () => {
                 
 
               {/* second col */}
-              <div className="py-10 pl-5 bg-gradient-to-r from-brandGreen/90 to-brandGreen/70 text-white rounded-2xl relative h-[320px] flex items-end ">
+              <div className="py-10 pl-5 bg-gradient-to-r from-brandGreen/90 to-brandGreen/70 text-white rounded-2xl relative h-[320px] flex items-start ">
                     <div>
                       <div className="mb-4">
                         <p className="mb-[2px] text-white "> Enjoy </p>
@@ -41,7 +41,7 @@ const Category2 = () => {
                 </div>
 
               {/* third col */}
-              <div className="py-10 pl-5 bg-gradient-to-r from-brandBlue/90 to-brandBlue/70 text-white rounded-2xl relative h-[320px] flex items-end ">
+              <div className="py-10 pl-5 bg-gradient-to-r from-brandBlue/90 to-brandBlue/70 text-white rounded-2xl relative h-[320px] flex items-start ">
                     <div>
                       <div className="mb-4">
                         <p className="mb-[2px] text-white "> Enjoy </p>
