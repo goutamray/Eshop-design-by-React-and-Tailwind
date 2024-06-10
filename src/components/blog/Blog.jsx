@@ -13,7 +13,8 @@ const Blog = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-4  md:gap-8 ">
               {
                 BlogData.map((item, index) => {
-                    return <div key={index} className="shadow">
+                    return <div data-aos="fade-up"           
+                    data-aos-delay={item.aosDelay} key={index} className="shadow">
                           <div className="overflow-hidden rounded-2xl hover:rounded-2xl">
                             <img src={item.image} alt="" className="w-full rounded-2xl h-[220px] mb-2 object-cover hover:scale-105 duration-500"/>
                             <div className="space-y-2 p-4">

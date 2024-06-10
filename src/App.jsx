@@ -15,8 +15,13 @@ import smartwatch2 from "../src/assets/smartwatch2.png"
 import Blog from './components/blog/Blog'
 import Partner from './components/partners/Partner'
 import Footer from './components/footer/Footer'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Popup from './components/popup/Popup'
+
+
+// amimation 
+import AOS from "aos";
+import "aos/dist/aos.css"; 
 
 // get small banner  data
 const SmallBanner = {
@@ -50,6 +55,19 @@ function App() {
      const handleOrderPopup = (() => {
       setOrderPopup(!orderPopup)
      })
+
+     // aos 
+     useEffect(() => {
+      AOS.init({
+        offset: 100,
+        duration: 600,
+        easing: 'ease-in-sine',
+        delay: 100,
+      });
+
+      AOS.refresh();
+
+     }, [])
 
   return (
     <div className='bg-white dark:bg-slate-900 dark:text-white duration-200 overflow-hidden '>

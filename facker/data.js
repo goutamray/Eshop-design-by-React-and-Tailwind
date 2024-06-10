@@ -165,6 +165,7 @@ export const BlogData = [
     date : "Jan 20, 2024 by Dilshad",
     title : "How to choose perfect smartwatch",
     desc : "minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro?",
+     aosDelay : "0"
   },
   {
     id : 2,
@@ -172,6 +173,7 @@ export const BlogData = [
     date : "Jan 20, 2024 by Satya",
     title : "How to choose perfect gadget",
     desc : "minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro?",
+     aosDelay : "200"
   },
   {
     id : 3,
@@ -179,6 +181,7 @@ export const BlogData = [
     date : "Jan 20, 2024 by Sabir",
     title : "How to choose perfect VR headset",
     desc : "minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro?",
+     aosDelay : "400"
   },
 ]
 

@@ -9,8 +9,9 @@ const ProductCard = ({ data }) => {
           {/* card products */}
           {
             data.map((item, index) => {
-              return <div key={index} className="border group border-gray-300 rounded-md sm:rounded-md ">
-                       <div className="relative ">
+              return <div data-aos="fade-up"           
+              data-aos-delay={item.aosDelay} key={index} className="border group border-gray-300 rounded-md sm:rounded-md ">
+                       <div   className="relative ">
                            <img src={item.image} alt="" className="h-[180px] w-[260px] lg:w-[360px]  rounded-md sm:rounded-md "/>
 
                            {/* hover button  */}
