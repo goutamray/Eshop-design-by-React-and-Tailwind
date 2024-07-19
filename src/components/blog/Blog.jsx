@@ -7,14 +7,14 @@ const Blog = () => {
         <div>
           {/* header section */}
             <div className="flex justify-center flex-col items-center mb-8">
-              <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2 dark:text-gray-300"> Recent News </h1>
+              <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2 dark:text-gray-300 mt-7 xl:mt-0"> Recent News </h1>
               <p className="text-xs text-gray-400"> Explore Our Blogs </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-4  md:gap-8 ">
               {
                 BlogData.map((item, index) => {
                     return <div data-aos="fade-up"           
-                    data-aos-delay={item.aosDelay} key={index} className="shadow">
+                    data-aos-delay={item.aosDelay} key={index} className="shadow mb-5 xl:mb-0">
                           <div className="overflow-hidden rounded-2xl hover:rounded-2xl">
                             <img src={item.image} alt="" className="w-full rounded-2xl h-[220px] mb-2 object-cover hover:scale-105 duration-500"/>
                             <div className="space-y-2 p-4">

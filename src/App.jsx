@@ -1,22 +1,26 @@
+
+// react components 
 import Banner from './components/banner/Banner'
 import Category from './components/category/Category'
 import Category2 from './components/category/Category2'
 import Navbar from './components/navbar/Navbar'
 import Service from './components/servise/Service'
 import SlideBanner from './components/slider/SliderBanner'
-
-
-import headphone from "../src/assets/headphone.png"
+import Blog from './components/blog/Blog'
+import Partner from './components/partners/Partner'
+import Footer from './components/footer/Footer'
+import Popup from './components/popup/Popup'
 import Products from './components/product/Products'
 import Banner2 from './components/banner/Banner2'
 
 
+// images 
+import headphone from "../src/assets/headphone.png"
 import smartwatch2 from "../src/assets/smartwatch2.png"
-import Blog from './components/blog/Blog'
-import Partner from './components/partners/Partner'
-import Footer from './components/footer/Footer'
+
+
+
 import { useEffect, useState } from 'react'
-import Popup from './components/popup/Popup'
 
 
 // amimation 

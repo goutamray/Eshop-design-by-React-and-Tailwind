@@ -29,7 +29,8 @@ const Navbar = ({ handleOrderPopup }) => {
                     }
                         <li className="relative group cursor-pointer"> 
                           <a href="#" className="flex items-center gap-1 font-semibold text-gray-500 dark:hover:text-white py-2">
-                            Quick link <span> <FaCaretDown className="group-hover:rotate-180 duration-300"/></span>
+                            Quick link 
+                            <span> <FaCaretDown className="group-hover:rotate-180 duration-300"/></span>
                           </a>
                           <div className="absolute  z-[9999] hidden group-hover:block w-[200px] rounded-md bg-white shadow-md dark:bg-gray-900 px-3 py-2 dark:text-white "> 
                               <ul className=" top-6 left-0 space-y-2">

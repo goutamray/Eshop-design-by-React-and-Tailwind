@@ -5,14 +5,14 @@ import Button from "../button/Button"
 const ProductCard = ({ data }) => {
   return (
     <div >
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 lg:gap-12 sm:gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 lg:gap-12 sm:gap-4 place-items-center ">
           {/* card products */}
           {
-            data.map((item, index) => {
+            data?.map((item, index) => {
               return <div data-aos="fade-up"           
-              data-aos-delay={item.aosDelay} key={index} className="border group border-gray-300 rounded-md sm:rounded-md ">
+              data-aos-delay={item.aosDelay} key={index} className="border group border-gray-300 rounded-md sm:rounded-md mb-3 xl:mb-0 ">
                        <div   className="relative ">
-                           <img src={item.image} alt="" className="h-[180px] w-[260px] lg:w-[360px]  rounded-md sm:rounded-md "/>
+                           <img src={item.image} alt="product-image" className="h-[180px] w-[280px] lg:w-[360px]  rounded-md sm:rounded-md "/>
 
                            {/* hover button  */}
                            <div className="hidden group-hover:flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full text-center group-hover:backdrop-blur-md justify-center items-center duration-300">

@@ -37,7 +37,7 @@ const Category = () => {
                 </div>
 
               {/* third col */}
-              <div className="py-10 col-span-2 pl-5 bg-gradient-to-r from-primary/90 to-primary/70 text-white rounded-2xl relative h-[320px] flex items-end ">
+              <div className="py-10 xl:col-span-2 pl-5 bg-gradient-to-r from-primary/90 to-primary/70 text-white rounded-2xl relative h-[320px] flex items-end ">
                     <div>
                       <div className="mb-4">
                         <p className="mb-[2px] text-white "> Enjoy </p>

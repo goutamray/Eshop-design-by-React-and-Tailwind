@@ -10,10 +10,10 @@ const Category2 = () => {
     <>
          <div className="py-8">
         <div className="container">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* first col */}
 
-              <div className="py-10 col-span-2 pl-5 bg-gradient-to-r from-gray-400/90 to-gray-200/100 text-white rounded-2xl relative h-[320px] flex items-end ">
+              <div className="py-10 xl:col-span-2 pl-5 bg-gradient-to-r from-gray-400/90 to-gray-200/100 text-white rounded-2xl relative h-[320px] flex items-end ">
                     <div>
                       <div className="mb-4">
                         <p className="mb-[2px] text-gray-200 "> Enjoy </p>
