@@ -1,10 +1,12 @@
 import { DropList, MenuList } from "../../../facker/data"
+
+// react icons 
 import { IoIosSearch } from "react-icons/io"; 
 import { FaCartShopping } from "react-icons/fa6"; 
 import { FaCaretDown } from "react-icons/fa";
+
+
 import DarkMode from "./DarkMode";
-
-
 
 const Navbar = ({ handleOrderPopup }) => {
   return (
@@ -67,7 +69,7 @@ const Navbar = ({ handleOrderPopup }) => {
                    <DarkMode /> 
                 </div>
               </div>
-
+  
           </div>
         </div>
       </div>

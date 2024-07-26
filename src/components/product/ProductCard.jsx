@@ -21,7 +21,7 @@ const ProductCard = ({ data }) => {
 
                            {/* product text */}
                            <div className="p-3 leading-6">
-                            <p className="text-xl font-bold "> {item.title}</p>
+                            <p className="text-md font-bold "> {item.title}</p>
                             <p className="text-md font-medium"><span className="text-primary font-medium text-md"> Price :</span> ${item.price} </p>
                            </div>
 

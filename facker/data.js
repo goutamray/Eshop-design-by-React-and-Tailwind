@@ -128,14 +128,14 @@ export const productData = [
   {
     id : 7,
     image : product7,
-    title : "Havit i62 Bluetooth",
+    title : "i62 Bluetooth",
     price : "420",
     aosDelay : "600"
   },
   {
     id : 8,
     image : product4,
-    title : "AULA S505 Wired",
+    title : "AULA S55 Wired",
     price : "420",
     aosDelay : "600"
   },
